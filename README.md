@@ -1,2 +1,7 @@
 # tang-news-eggjs-anyproxy
 手机端微信app的anyproxy后端管理响应平台
+
+手机端微信app通信均经过anyproxy
+没有实际产生访问，仅生成微信访问参数存入MongoDB
+anyproxy向后端eggjs平台发送请求
+获得下一个需要生成参数的公众号地址
